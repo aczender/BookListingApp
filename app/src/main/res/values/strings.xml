@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BookListingApp</string>
+
+    <string name="no_books">No books found</string>
+
+    <string name="no_internet">No net connection</string>
+
+    <string name="author">Author of the book</string>
+
+    <string name="title">Title of the book</string>
+
+    <string name="published_date">Publishing date of the book</string>
+</resources>

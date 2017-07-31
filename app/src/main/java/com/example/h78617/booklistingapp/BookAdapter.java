@@ -29,7 +29,7 @@ public class BookAdapter extends ArrayAdapter<Book> {
         final Book currentBook = getItem(position);
         ViewHolder holder;
 
-        if (listItemView == null) {
+        if (convertView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.books_list_item, parent, false);
 
             holder = new ViewHolder();
